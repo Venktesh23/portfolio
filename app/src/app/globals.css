@@ -244,4 +244,8 @@
     @apply border-b-0;
   }
 
+  /* Hide Next.js dev indicator */
+  nextjs-portal {
+    display: none !important;
+  }
 }

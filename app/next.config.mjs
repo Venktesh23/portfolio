@@ -28,6 +28,10 @@ const nextConfig = {
       },
     ];
   },
+  devIndicators: {
+    appIsrStatus: false,
+    buildActivity: false,
+  },
 };
 
 // withContentCollections must be the outermost plugin
