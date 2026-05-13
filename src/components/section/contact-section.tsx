@@ -1,7 +1,5 @@
 "use client";
-import Link from "next/link";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
-import { DATA } from "@/data/resume";
 
 export default function ContactSection() {
   return (
@@ -25,16 +23,15 @@ export default function ContactSection() {
           Get in Touch
         </h2>
         <p className="mx-auto max-w-lg text-muted-foreground text-balance">
-          Want to chat? Just{" "}
+          Open to internships, research roles, and interesting builds. {" "}
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=venkteshtapadia0923@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
-            send me an email
-          </a>{" "}
-          and I&apos;ll respond whenever I can.
+            Let&apos;s Connect
+          </a>
         </p>
       </div>
     </div>

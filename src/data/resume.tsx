@@ -106,7 +106,7 @@ export const DATA = {
       start: "May 2025",
       end: "August 2025",
       description:
-        "Worked on an assistive robot, building adaptive software systems to improve human–robot interaction for individuals with cognitive disabilities.",
+        "Researched assistive tech for cognitive disabilities, building a Python and React system that cut task completion time by 50%. Fine-tuned an LLM with LoRA to adapt instructions based on real user behavior, pushing accuracy up by 30%.",
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/therarelab/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://therarelab.com/", label: "Website" },
@@ -122,7 +122,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "May 2025",
       description:
-        "Worked on a production platform delivering real-time disaster and evacuation insights, contributing to reliable backend systems and user-facing features in a fast-moving startup environment.",
+        "Worked on a Y Combinator-backed disaster response platform, shipping real-time evacuation maps and live incident dashboards. Improved data refresh speeds by 30% and deployment turnaround by 40% through pipeline and CI/CD optimizations.",
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/interlinkedcorp/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://interlynked.com/", label: "Website" },
@@ -138,7 +138,7 @@ export const DATA = {
       start: "May 2024",
       end: "August 2024",
       description:
-        "Worked on software systems for monitoring and managing solar power infrastructure, building reliable backend services and dashboards used in real operational settings.",
+        "Monitored solar energy infrastructure across 20+ plants by building IoT dashboards with real-time anomaly detection. Shipped APIs handling 1,000+ daily requests under 200ms and automated alerting that halved incident response time.",
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/free-spirits/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://trackso.in/", label: "Website" },
@@ -158,33 +158,34 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Mark",
-      href: "https://mark-crm-ai-agent.vercel.app",
+      title: "MedFlow",
+      href: "https://medflow-eight-azure.vercel.app/",
       dates: "March 2026",
       active: true,
       description:
-        "AI-powered campaign workspace with multi-agent generation, review, experimentation, and closed-loop learning. It supports campaign build, compliance review, A/B experimentation, and data-driven iteration from prospect outcomes.",
+        "MedFlow is an agentic assistant for healthcare providers that automates documentation and scheduling. It listens to patient consultations in real time, generates structured SOAP notes, and lets doctors manage their calendar with simple voice commands.",
       technologies: [
-        "React",
-        "Typescript",
+        "TypeScript",
         "Python",
-        "FastAPI",
-        "Gemini API",
-        "PostgreSQL",
+        "Claude API",
+        "Express",
+        "Node",
+        "Deepgram API",
+        "MongoDB",
       ],
       links: [
         {
           type: "Website",
-          href: "https://mark-crm-ai-agent.vercel.app",
+          href: "https://medflow-eight-azure.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/Venktesh23/Mark-CRM-AI-Agent",
+          href: "https://github.com/Venktesh23/MedFlow",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/mark.png",
+      image: "/images/MedFlow.png",
       video: "",
     },
     {
@@ -197,14 +198,12 @@ export const DATA = {
       technologies: [
         "React",
         "TypeScript",
-        "Vite",
-        "Tailwind CSS",
-        "Node.js",
-        "Express",
-        "MongoDB",
         "Python",
+        "Express",
+        "Gemini API",
+        "Chart.js",
         "TensorFlow",
-        "scikit-learn",
+        "MongoDB",
       ],
       links: [
         {
@@ -224,15 +223,17 @@ export const DATA = {
     {
       title: "FindMyStuff",
       href: "https://github.com/Venktesh23/FindMyStuffUSF",
-      dates: "",
+      dates: "March 2025",
       active: true,
       description:
         "A comprehensive lost and found platform specifically designed for the University of South Florida community. It features real-time notifications, secure user authentication, and an intuitive dashboard to help students recover missing items efficiently.",
       technologies: [
+        "React",
+        "JavaScript",
+        "Node",
         "Express",
-        "Node.js",
+        "Google Maps API",
         "PostgreSQL",
-        "TypeScript",
       ],
       links: [
         {
@@ -247,7 +248,7 @@ export const DATA = {
     {
       title: "Polaris",
       href: "https://polaris-livid-one.vercel.app/",
-      dates: "",
+      dates: "April 2026",
       active: true,
       description:
         "A high-performance infrastructure management platform tailored for modern engineering teams. It provides advanced monitoring tools, automated control systems, and secure access protocols to ensure system stability and operational excellence.",
