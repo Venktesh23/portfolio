@@ -105,8 +105,11 @@ export const DATA = {
       logoUrl: "/images/RARE_Lab.jpeg",
       start: "May 2025",
       end: "August 2025",
-      description:
-        "Researched assistive tech for cognitive disabilities, building a Python and React system that cut task completion time by 50%. Fine-tuned an LLM with LoRA to adapt instructions based on real user behavior, pushing accuracy up by 30%.",
+      highlights: [
+        "Built and deployed a full-stack Python and React interface for a robot integrating WebSocket",
+        "Fine-tuned an LLM with LoRA on real user behavior, cutting task completion time by 50% and boosting instruction accuracy by 30%.",
+      ],
+      skills: ["Python", "React", "WebSocket", "Fine-Tuning (LoRA)", "PyTorch"],
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/therarelab/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://therarelab.com/", label: "Website" },
@@ -121,8 +124,11 @@ export const DATA = {
       logoUrl: "/images/Interlinked%20(YC%20S24).jpeg",
       start: "Jan 2025",
       end: "May 2025",
-      description:
-        "Worked on a Y Combinator-backed disaster response platform, shipping real-time evacuation maps and live incident dashboards. Improved data refresh speeds by 30% and deployment turnaround by 40% through pipeline and CI/CD optimizations.",
+      highlights: [
+        "Built disaster response tools at a Y Combinator-backed startup that were used during live emergency scenarios.",
+        "Shipped an evacuation mapping pipeline and optimized CI/CD workflows, improving data refresh by 30% and deployment speed by 40%.",
+      ],
+      skills: ["Next.js", "TypeScript", "Python", "AWS", "S3", "Mapbox", "Docker", "GitLab"],
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/interlinkedcorp/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://interlynked.com/", label: "Website" },
@@ -137,8 +143,11 @@ export const DATA = {
       logoUrl: "/images/TrackSo.jpeg",
       start: "May 2024",
       end: "August 2024",
-      description:
-        "Monitored solar energy infrastructure across 20+ plants by building IoT dashboards with real-time anomaly detection. Shipped APIs handling 1,000+ daily requests under 200ms and automated alerting that halved incident response time.",
+      highlights: [
+        "Built IoT dashboards monitoring 20+ solar plants in real time, with anomaly detection and automated incident alerts.",
+        "Designed APIs handling 1,000+ daily requests under 200ms with token-based access control, cutting response time by 50%.",
+      ],
+      skills: [".NET", "C#", "REST API", "IoT", "Amazon SES"],
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/free-spirits/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://trackso.in/", label: "Website" },

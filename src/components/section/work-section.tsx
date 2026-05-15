@@ -70,7 +70,32 @@ export default function WorkSection() {
           </div>
 
           <div className="ml-11 text-xs sm:text-sm text-muted-foreground">
-            <p className="leading-[1.7]">{work.description}</p>
+            {"highlights" in work && work.highlights ? (
+              <div className="space-y-2">
+                <ul className="space-y-2 leading-[1.7]">
+                  {work.highlights.map((highlight: string) => (
+                    <li key={highlight} className="relative pl-4">
+                      <span className="absolute left-0 top-[0.7em] size-1.5 rounded-full bg-muted-foreground/70" aria-hidden />
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
+                {"skills" in work && work.skills && work.skills.length > 0 && (
+                  <div className="flex flex-wrap gap-2 pt-1">
+                    {work.skills.map((skill: string) => (
+                      <span
+                        key={skill}
+                        className="inline-flex items-center rounded-full border border-border/70 bg-background px-2.5 py-1 text-[11px] font-medium text-foreground/80"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <p className="leading-[1.7]">{work.description}</p>
+            )}
             {"links" in work && work.links && work.links.length > 0 && (
               <div className="mt-3 flex flex-wrap gap-2">
                 {work.links.map((link: { icon: React.ComponentType<{ className?: string }>; href: string; label: string }) => {
