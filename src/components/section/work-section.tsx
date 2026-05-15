@@ -88,15 +88,14 @@ export default function WorkSection() {
                         className="inline-flex items-center rounded-full border border-border/70 bg-background px-2.5 py-1 text-[11px] font-medium text-foreground/80"
                       >
                         {skill}
-                  ) : "description" in work ? (
+                      </span>
                     ))}
-                  ) : null}
                   </div>
                 )}
               </div>
-            ) : (
+            ) : "description" in work ? (
               <p className="leading-[1.7]">{work.description}</p>
-            )}
+            ) : null}
             {"links" in work && work.links && work.links.length > 0 && (
               <div className="mt-3 flex flex-wrap gap-2">
                 {work.links.map((link: { icon: React.ComponentType<{ className?: string }>; href: string; label: string }) => {
