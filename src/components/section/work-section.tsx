@@ -88,8 +88,9 @@ export default function WorkSection() {
                         className="inline-flex items-center rounded-full border border-border/70 bg-background px-2.5 py-1 text-[11px] font-medium text-foreground/80"
                       >
                         {skill}
-                      </span>
+                  ) : "description" in work ? (
                     ))}
+                  ) : null}
                   </div>
                 )}
               </div>
