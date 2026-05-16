@@ -128,7 +128,7 @@ export const DATA = {
         "Built disaster response tools at a Y Combinator-backed startup that were used during live emergency scenarios.",
         "Shipped an evacuation mapping pipeline and optimized CI/CD workflows, improving data refresh by 30% and deployment speed by 40%.",
       ],
-      skills: ["Next.js", "TypeScript", "Python", "AWS", "S3", "Mapbox", "Docker", "GitLab"],
+      skills: ["Next.js", "TypeScript", "Python", "AWS S3", "Mapbox", "Docker", "GitLab"],
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/interlinkedcorp/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://interlynked.com/", label: "Website" },
@@ -147,7 +147,7 @@ export const DATA = {
         "Built IoT dashboards monitoring 20+ solar plants in real time, with anomaly detection and automated incident alerts.",
         "Designed APIs handling 1,000+ daily requests under 200ms with token-based access control, cutting response time by 50%.",
       ],
-      skills: [".NET", "C#", "REST API", "IoT", "Amazon SES"],
+      skills: [".NET", "C#", "REST API", "IoT", "AWS SES"],
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/free-spirits/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://trackso.in/", label: "Website" },
@@ -169,7 +169,7 @@ export const DATA = {
     {
       title: "MedFlow",
       href: "https://medflow-eight-azure.vercel.app/",
-      dates: "March 2026",
+      dates: "May 2026",
       active: true,
       description:
         "MedFlow is an agentic assistant for healthcare providers that automates documentation and scheduling. It listens to patient consultations in real time, generates structured SOAP notes, and lets doctors manage their calendar with simple voice commands.",
@@ -195,6 +195,36 @@ export const DATA = {
         },
       ],
       image: "/images/MedFlow.png",
+      video: "",
+    },
+    {
+      title: "Polaris",
+      href: "https://polaris-livid-one.vercel.app/",
+      dates: "April 2026",
+      active: true,
+      description:
+        "A high-performance infrastructure management platform tailored for modern engineering teams. It provides advanced monitoring tools, automated control systems, and secure access protocols to ensure system stability and operational excellence.",
+      technologies: [
+        "Python",
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Gemini API",
+        "FastAPI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://polaris-livid-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Venktesh23/polaris",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/images/polaris.png",
       video: "",
     },
     {
@@ -231,7 +261,7 @@ export const DATA = {
     },
     {
       title: "FindMyStuff",
-      href: "https://github.com/Venktesh23/FindMyStuffUSF",
+      href: "https://findmystuffusf.netlify.app/",
       dates: "March 2025",
       active: true,
       description:
@@ -246,40 +276,17 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://findmystuffusf.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Source",
           href: "https://github.com/Venktesh23/FindMyStuffUSF",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Polaris",
-      href: "https://polaris-livid-one.vercel.app/",
-      dates: "April 2026",
-      active: true,
-      description:
-        "A high-performance infrastructure management platform tailored for modern engineering teams. It provides advanced monitoring tools, automated control systems, and secure access protocols to ensure system stability and operational excellence.",
-      technologies: [
-        "Python",
-        "TypeScript",
-        "Next.js",
-        "PostgreSQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://polaris-livid-one.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Venktesh23/polaris",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/images/polaris.png",
+      image: "/images/FindMyStuff.png",
       video: "",
     },
   ],
