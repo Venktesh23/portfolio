@@ -94,7 +94,21 @@ export default function WorkSection() {
                 )}
               </div>
             ) : "description" in work ? (
-              <p className="leading-[1.7]">{work.description}</p>
+              <>
+                <p className="leading-[1.7]">{work.description}</p>
+                {"skills" in work && work.skills && work.skills.length > 0 && (
+                  <div className="flex flex-wrap gap-2 pt-1">
+                    {work.skills.map((skill: string) => (
+                      <span
+                        key={skill}
+                        className="inline-flex items-center rounded-full border border-border/70 bg-background px-2.5 py-1 text-[11px] font-medium text-foreground/80"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </>
             ) : null}
             {"links" in work && work.links && work.links.length > 0 && (
               <div className="mt-3 flex flex-wrap gap-2">

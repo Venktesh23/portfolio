@@ -85,12 +85,13 @@ export const DATA = {
       href: "https://www.vspvision.com",
       badges: [],
       location: "Remote",
-      title: "Incoming Software Engineering Intern",
+      title: "Software Engineering Intern",
       logoUrl: "/images/VSP_Logo.jpeg",
       start: "May 2026",
       end: null,
       description:
         "Software Engineering Intern in Eyefinity team for Summer 2026.",
+      skills: ["C#", ".NET", "Angular"],
       links: [
         { icon: Icons.linkedin, href: "https://www.linkedin.com/company/vsp-vision/posts/?feedView=all", label: "LinkedIn" },
         { icon: Icons.globe, href: "https://www.vspdirect.com", label: "Website" },
@@ -203,7 +204,7 @@ export const DATA = {
       dates: "April 2026",
       active: true,
       description:
-        "A high-performance infrastructure management platform tailored for modern engineering teams. It provides advanced monitoring tools, automated control systems, and secure access protocols to ensure system stability and operational excellence.",
+        "An AI agent that automatically reviews pull requests for security vulnerabilities, maps findings to industry compliance standards, and commits verified fixes directly to the codebase, cutting manual security review time to under 60 seconds.",
       technologies: [
         "Python",
         "TypeScript",
@@ -233,7 +234,7 @@ export const DATA = {
       dates: "April 2025",
       active: true,
       description:
-        "Carbon management web app for tracking emissions, viewing insights, and generating ML-backed recommendations. Features a React dashboard, Express API, and optional Gemini-powered personalized reduction strategies.",
+        "Carbon management web app for tracking emissions, viewing insights, and generating ML-backed recommendations. Features a React dashboard, Express API, and Gemini AI powered personalized reduction strategies.",
       technologies: [
         "React",
         "TypeScript",
